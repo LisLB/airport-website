@@ -1,0 +1,148 @@
+.covid-information{
+    background-color: red;
+    padding: 30px;
+    width: 80%;
+    margin: 20px auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the navbar */
+nav {
+    display: flex;
+    justify-content: space-between; /* Place brand name on the left and links on the right */
+    align-items: center;
+    background-color: #007BFF; /* Blue background */
+    padding: 10px 20px; /* Vertical and horizontal padding */
+}
+
+/* Styling for the brand name */
+.brand-name h1 {
+    color: white; /* White text */
+    font-size: 32px; /* Size of the brand name */
+    transform: rotate(0deg); /* No rotation for the brand name */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Style for the navigation links */
+.nav-links {
+    display: flex; /* Align list items horizontally first */
+    flex-direction: column; /* Stack the links vertically */
+    align-items: flex-end; /* Align the links to the right */
+}
+
+.nav-links li {
+    margin: 10px 0; /* Space between each list item */
+}
+
+.nav-links li a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    transform: rotate(90deg); /* Rotate the text to go sideways */
+    white-space: nowrap; /* Prevent wrapping */
+    padding: 5px; /* Add padding to improve clickable area */
+}
+
+/* Hover effect for the navbar links */
+.nav-links li a:hover {
+    color: #f0f0f0; /* Change color on hover */
+}
+
+/* Optional: Responsive behavior */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack navbar content vertically on small screens */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .brand-name h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .nav-links {
+        flex-direction: row; /* Arrange links horizontally in mobile view */
+        justify-content: center; /* Center the links */
+        align-items: center; /* Align the links vertically */
+    }
+
+    .nav-links li {
+        margin: 0 15px; /* Space out the items */
+    }
+
+    .nav-links li a {
+        transform: rotate(0deg); /* Make links horizontal on mobile */
+    }
+}
+.places{
+    width: 200px;
+    height: 150px;
+}
+.places-div{
+    background-color: blue;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+left: -20px;
+}
+.work-div{
+    background-color: purple;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+}
+.fotos-div{
+    background-color: blue;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+left: -20px;
+}
+.foto{
+    width: 200px;
+    height: 150px;
+}
+.about{
+    background-color: purple;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+}
+.send{
+    background-color: blue;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+left: -20px;
+}
+.rules{
+    background-color: purple;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+}
+.rent{
+    background-color: blue;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+left: -20px;
+}
+.map{
+    background-color: purple;
+    padding: 20px;
+    left: -20px;
+    width: 80%;
+    margin: 20px auto;
+}
